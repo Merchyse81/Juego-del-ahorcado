@@ -1,0 +1,44 @@
+/*ResultScreen.css*/
+
+/* Estilos para ResultScreen */
+
+.container {
+    text-align: center;
+    color: whitesmoke; /* Texto en color negro */
+  }
+  
+  .result-message {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente del mensaje */
+    color: orange; /* Color del mensaje */
+  }
+  
+  /* Estilos para el botón */
+  .container button {
+    /* Estilos para el botón "Jugar de Nuevo" */
+    font-family: 'Arial', sans-serif; /* Cambia la fuente del botón */
+    color: black; /* Texto en color negro */
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .home-button,
+.reset-game {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente del botón */
+    color: black; /* Texto en color negro */
+    margin-top: 20px; /* Espaciado superior */
+    padding: 10px 20px; /* Relleno interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor al pasar por encima */
+}
+
+.reset-game {
+    background-color: bisque; /* Cambia el color de fondo del botón "Jugar de Nuevo" */
+    margin-left: 10px; /* Añade un margen a la izquierda para separar los botones */
+}
+  
+  
+  

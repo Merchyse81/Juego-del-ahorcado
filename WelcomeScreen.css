@@ -1,0 +1,21 @@
+/*WelcomeScreen.css*/
+
+/* Estilos para WelcomeScreen */
+
+.container {
+    text-align: center;
+    color: rgb(221, 155, 68); /* Texto en color */
+  
+  }
+  
+  .title {
+    font-family: 'Arial Black', sans-serif; /* Cambia la fuente del título */
+    color: orange; /* Título en color anaranjado */
+    margin-top: 60px;
+  }
+   .start-button {
+      background-color:bisque;
+   }
+
+   
+  

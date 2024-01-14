@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(67, 67, 187); /* Fondo azul marino */
+  color: white; /* Texto en color anaranjado */
+}
+
+.welcome-text {
+  color: white; /* Cambia el color del texto de bienvenida */
+  font-family: 'Doodle', sans-serif; /* Cambia la fuente del texto de bienvenida */
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.logo {
+  max-width: 60%;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 30px auto 0;
+  margin-bottom: 20px;
+ 
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #282c34; /* Color de fondo del footer */
+  color: lightgray; /* Color del texto del footer */
+  font-size: 14px; /* Tamaño de la fuente */
+  text-align: center; /* Centrar el texto */
+  padding: 10px 0; /* Espaciado interno */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+

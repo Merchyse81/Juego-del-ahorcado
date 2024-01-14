@@ -1,0 +1,58 @@
+/*GameScreen.css*/
+
+/* Estilos para GameScreen */
+
+.container {
+    text-align: center;
+    color: whitesmoke; /* Texto en color negro */
+  }
+  
+  /* Estilos para los botones */
+  .alphabet-buttons button,
+  .alphabet-buttons button:disabled {
+    /* Estilos de los botones de letras */
+    font-family: 'Arial', sans-serif; /* Cambia la fuente de los botones */
+    background-color: rgb(249, 249, 92); /* Fondo naranja */
+    color: rgb(147, 113, 113); /* Texto en color negro */
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .alphabet-buttons button:disabled {
+    /* Estilos para botones deshabilitados */
+    background-color: rgb(180, 144, 144); /* Cambia el color de fondo cuando está deshabilitado */
+    cursor: not-allowed;
+  }
+  
+  .home-button {
+    font-family: sans-serif;
+    background-color:bisque;
+  }
+
+  .number-button{
+    background-color: yellow;
+  }
+
+  .reset-game{
+    background-color: bisque;
+  }
+
+  .home-button,
+  .reset-game{
+    margin-left: 10px;
+  }
+  
+  .footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #282c34; /* Color de fondo del footer */
+    color: lightgray; /* Color del texto del footer */
+    font-size: 14px; /* Tamaño de la fuente */
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Espaciado interno */
+  }
+  
